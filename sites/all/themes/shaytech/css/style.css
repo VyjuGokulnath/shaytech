@@ -1,0 +1,9 @@
+/**
+ * This file will be overwritten when the Bootstrap Framework source files
+ * are compiled using the LESS CSS pre-processor.
+ */
+
+.menu.nav.navbar-nav.secondary li a {
+	float: right;
+}
+
