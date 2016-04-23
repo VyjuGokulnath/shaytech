@@ -2,8 +2,46 @@
  * This file will be overwritten when the Bootstrap Framework source files
  * are compiled using the LESS CSS pre-processor.
  */
-
-.menu.nav.navbar-nav.secondary li a {
-	float: right;
+.container{
+	/*background-color: #bdc3c7;*/
+	width:992px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
+div.main-container.container div.row{
+	background-color:#ecf0f1;
+
+}
+
+.navbar.container.navbar{
+	background-color: rgb(0,93,164);
+}
+
+.menu.nav.navbar-nav.secondary{
+	float:right;
+	width:30%;
+	margin:10px;
+}
+
+.menu.nav.navbar-nav{
+	list-style:none;
+	float:left;
+	width:30%;
+	margin:10px;
+
+}
+
+div div nav ul li{
+	float: left;
+	color: rgb(0,174,239);
+	
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: rgb(0,174,239);
+}
+
+.main-container.container{
+	background-color: white;
+}
